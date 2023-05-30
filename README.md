@@ -11,3 +11,7 @@ Create a Terraform project that spins up an EKS cluster with the exact same setu
 
 * Create EKS cluster with 3 Nodes and 1 Fargate profile only for your java application
 * Deploy Mysql with 3 replicas with volumes for data persistence using helm
+
+**Solution:**
+
+All the necessary files are added.
