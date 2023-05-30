@@ -24,3 +24,6 @@ You can use e.g. S3 bucket for storage.
 
 **Solution:**
 The terraform block under `vpc.tf` is responsible for this.
+
+# EXERCISE 3: CI/CD pipeline for Terraform project
+Create a separate Jenkins pipeline for Terraform provisioning the EKS cluster
