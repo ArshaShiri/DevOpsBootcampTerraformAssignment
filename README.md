@@ -15,3 +15,9 @@ Create a Terraform project that spins up an EKS cluster with the exact same setu
 **Solution:**
 
 All the necessary files are added.
+
+## EXERCISE 2: Configure remote state
+By default, TF stores state locally. You know that this is not practical when working in a team, because each user must make sure they always have the latest state data before running Terraform. To fix that, you
+
+* Configure remote state with a remote data store for your terraform project
+You can use e.g. S3 bucket for storage.
