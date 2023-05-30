@@ -21,3 +21,6 @@ By default, TF stores state locally. You know that this is not practical when wo
 
 * Configure remote state with a remote data store for your terraform project
 You can use e.g. S3 bucket for storage.
+
+**Solution:**
+The terraform block under `vpc.tf` is responsible for this.
